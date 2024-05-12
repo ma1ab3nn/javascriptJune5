@@ -1,2 +1,2 @@
 # javascriptmay1
-# This is the work I completed during the 1st of May lesson on Function and Control Flow Lesson Tasks
+# This is the work I completed during the 8st of May lesson on JS Functions & Control Flow Practical
