@@ -1,0 +1,53 @@
+body {
+    font-family: sans;
+    line-height: 1.5;
+  }
+  
+  /* Limit the maximum width regardless of window size */
+  .container {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* The form */
+  #todo {
+    border: solid thin darkgray;
+    padding: 1.5em;
+    border-radius: 0.25em;
+  }
+  
+  /* The unordered list containing the todos */
+  #todo-pane {
+    padding: 0;
+  }
+  
+  /* The todos themselves */
+  #todo-pane li {
+    display: flex;
+    max-width: 20em;
+    align-items: center;
+    background-color: lightyellow;
+    border: thin orange solid;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    margin: 1em 0;
+  }
+  
+  /* A todo that was just created */
+  .just-created {
+    box-shadow: 0 0 20px 1px orange;
+  }
+  
+  /* The image of a flag within a todo */
+  #todo-pane li img {
+    width: 1em;
+    padding-right: 1rem;
+  }
+  
+  /* The small text in the footer */
+  small {
+    font-size: small;
+    font-style: italic;
+  }
+  
